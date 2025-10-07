@@ -14,9 +14,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Bash
-      uses: actions/setup-bash@v1
-
     - name: Make script executable
       run: chmod +x myscript.sh
 
